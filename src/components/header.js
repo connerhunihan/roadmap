@@ -1,42 +1,64 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import Image from "../components/image"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+import "./header.css"
+
+const Header = () => (
+<nav class="navbar is-transparen" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <Image></Image>
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+
+  <div id="navMenu" class="navbar-menu">
+    <div class="navbar-start">
     </div>
-  </header>
+
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="p">
+          <a class="nav-text">
+            SIGN UP
+          </a>
+          <a class="nav-text">
+            LOG IN
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </nav>
 )
 
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+document.addEventListener('DOMContentLoaded', () => {
+  // Get all "navbar-burger" elements
+  const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
-Header.defaultProps = {
-  siteTitle: ``,
-}
+  // Check if there are any navbar burgers
+  if ($navbarBurgers.length > 0) {
+
+    // Add a click event on each of them
+    $navbarBurgers.forEach( el => {
+      el.addEventListener('click', () => {
+
+        // Get the target from the "data-target" attribute
+        const target = el.dataset.target;
+        const $target = document.getElementById(target);
+
+        // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+        el.classList.toggle('is-active');
+        $target.classList.toggle('is-active');
+
+      });
+    });
+  }
+});
+
 
 export default Header
