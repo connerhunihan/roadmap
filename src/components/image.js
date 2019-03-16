@@ -30,23 +30,8 @@ const Image = (props) => (
             }
           }
         }
-        placeholderImage2: file(relativePath: { eq: "phase-2.png" }) {
-          childImageSharp {
-            fluid(maxWidth: 200) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
-        placeholderImage3: file(relativePath: { eq: "phase-3.png" }) {
-          childImageSharp {
-            fluid(maxWidth: 200) {
-              ...GatsbyImageSharpFluid_tracedSVG
-            }
-          }
-        }
       }
     `}
-<<<<<<< Updated upstream
 
     render={(data) => {
       const image = data.images.edges.find(n => {
@@ -64,13 +49,6 @@ const Image = (props) => (
         />
       );
     }}
-=======
-    render={ data => 
-      <Img fluid={data.placeholderImage.childImageSharp.fluid}></Img>
-      // <Img fluid={data.placeholderImage2.childImageSharp.fluid}></Img>
-      // <Img fluid={data.placeholderImage3.childImageSharp.fluid}></Img>
-    }
->>>>>>> Stashed changes
   />
 )
 export default Image
