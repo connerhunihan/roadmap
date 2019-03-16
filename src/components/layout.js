@@ -32,8 +32,8 @@ const Layout = () => (
         <div>
           <main>
             <Hero></Hero>
-            <Body></Body>
-            <Body></Body>
+            <modularizeExplanation></modularizeExplanation>
+            <cards background="has-background-light"></cards>
             <Body></Body>
           </main>
         </div>

@@ -1,21 +1,253 @@
 @charset "utf-8";
 
 // Import a Google Font
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 
 // Set your brand colors
 $blue: #0077C5;
 $light-blue: #80BBE2;
 
 // Update Bulma's global variables
-$family-sans-serif: "Nunito", sans-serif;
+$family-sans-serif: "Lato", sans-serif;
 $primary: $blue;
 
 // Update some of Bulma's component variables
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
 $navbar-background-color: $blue;
+
+
+// typography classes
+.header-1 {
+  font-family: Lato;
+  font-size: 3.2rem;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: .2rem;
+  color: #FFFFFF;
+  padding-bottom: 2rem;
+  text-align: left;
+};
+
+.header-2 {
+  font-family: Lato;
+  font-size: 2rem;
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: .1rem;
+  color: #FFFFFF;
+  padding-bottom: 0.3125em;
+  text-align: left;
+};
+
+.header-3 {
+  font-family: Lato;
+  font-size: 1.75rem;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: .1rem;
+  color: #515151;
+  text-transform: uppercase;
+  padding-bottom: .5em;
+};
+
+.paragraph {
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #515151;
+  padding-bottom: 1.75em;
+};
+
+.paragraph-small {
+  font-family: Lato;
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #515151;
+  padding-bottom: 1.75em;
+};
+.paragraph-light-italic {
+  font-style: italic;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  padding-bottom: 0.625em;
+}
+
+.hyperllinks {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #fe4a49;
+};
+
+.form-label-headers {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+};
+
+.form-label-subheader {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  color: #4a4a4a;
+  padding-bottom: 1em;
+};
+
+.logo {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 33px;
+  font-weight: 900;
+  line-height: 40px;
+  letter-spacing: -2px;
+  text-align: center;
+  color: #fed766;
+  text-transform: uppercase;
+};
+.logo:hover {
+  color: $blue;
+}
+
+.nav-active {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #2ab7ca;
+};
+
+.nav-inactive {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1.5px;
+  text-align: center;
+  color: #e6e6e6;
+};
+
+.caption-header {
+  font-family: Montserrat;
+  font-size: 17px;
+  font-weight: 600i;
+  font-style: bold;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #b1b1b1;
+  text-transform: uppercase;
+  margin: 1em 5% .5em 5%;
+  text-align: center;
+};
+
+.caption-body {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #b1b1b1;
+  margin-bottom: 3rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: center;
+};
+
+.title-header {
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 55px;
+  letter-spacing: 2px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+};
+
+.title-body {
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+};
+
+.blockquote {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 31px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 42px;
+  letter-spacing: normal;
+  color: #B1B1B1;
+  padding: .5em 2em .35em 2em;
+}
+
+.blockquote-attribution {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 27px;
+  font-weight: 300;
+  font-style: italic;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: right;
+  color: #E6E6E6;
+  padding: 0em 2em 2em 2em;
+}
+
+//  spacing classes 
+.top-padding {
+	padding-top: 7rem;
+}
+.bottom-padding {
+	padding-bottom: 7rem;
+}
 
 // Import only what you need from Bulma
 // @import "~bulma/sass/utilities/initial-variables.sass";
