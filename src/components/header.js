@@ -9,7 +9,7 @@ const Header = () => (
 <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
-      <Image filename="logo.png"></Image>
+      <Image filename="white.png"></Image>
     </a>
 
     <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu">

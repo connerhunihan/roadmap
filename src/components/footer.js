@@ -7,12 +7,12 @@ import MyForm from "./form"
 const Footer = () => (
 <footer class="footer">
   <div class="columns">
-    <div class="column is-2">
-      <a class="navbar-item" href="/">
-        <Image filename="logo.png"></Image>
-      </a>
+    <div class="column is-3">
+      <figure class="image is-5by4">
+        <Image filename="white.png"></Image>
+      </figure>
     </div>
-    <div class="column is-6">
+    <div class="column is-5">
       <p class="footer-headers">
         <b>RoadMap, connect with your future. </b>
       </p>

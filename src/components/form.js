@@ -51,16 +51,13 @@ class MyForm extends React.Component {
         return (
         <div id="getinvolved" class="card">
           <header class="card-header">
-            <p class="paragraph-small has-text-grey-light card-header-title">
-              I want to:
-            </p>
           </header>
           <div class="card-content">
             <div class="content">
               <form onSubmit={this.handleSubmit}>
                 <div class="field">
                   <div class="control">
-                    <input class="input" name="email" type="email" placeholder="EMAIL" value={this.state.value} 
+                    <input class="input" name="email" type="email" placeholder="Enter e-mail and submit to:" value={this.state.value} 
                       onChange={this.handleChange}/>
                   </div>
                 </div>
@@ -78,7 +75,7 @@ class MyForm extends React.Component {
                 </div>
                 <div class="field">
                   <div class="control">
-                    <Button class="button">Sign me up!</Button>
+                    <Button class="button">Submit</Button>
                   </div>
                 </div>
                     <p>{this.state.confirm}</p>

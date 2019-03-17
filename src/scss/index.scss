@@ -269,6 +269,10 @@ $column-gap: 5rem;
   margin-right: auto;
 }
 
+#hero-container {
+  padding: .25rem;
+}
+
 // Import only what you need from Bulma
 // @import "~bulma/sass/utilities/initial-variables.sass";
 @import "~bulma/sass/utilities/_all.sass";
