@@ -25,7 +25,7 @@ const Header = () => (
 
     <div class="navbar-end">
       <div class="navbar-item">
-        <a class="form-label-headers">
+        <a href="#getinvolved" class="form-label-headers">
           SIGN UP
         </a>
       </div>

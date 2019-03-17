@@ -74,7 +74,7 @@ const UseCases = () => (
       </div>
       <div class="columns">
         <div class="column is-offset-3 is-6">
-          <a class="button is-large is-primary is-large is-fullwidth is-rounded form-label-headers">Get started</a>
+          <a class="button is-large is-primary is-large is-fullwidth is-rounded form-label-headers" href="#getinvolved">Get started</a>
         </div>
       </div>
     </div>
