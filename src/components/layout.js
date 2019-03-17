@@ -34,8 +34,7 @@ const Layout = () => (
         <Process></Process>
         <UseCases></UseCases>
         <People></People>
-        <Footer>
-        </Footer>
+        <Footer></Footer>
       </>
     )}
   />

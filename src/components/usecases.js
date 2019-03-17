@@ -66,7 +66,7 @@ const UseCases = () => (
                 </div>
               </div>
               <div class="paragarph-large content">
-                Have an idea for project? Have RoadMap scope, research, and buidl your MVP to show off!
+                Have an idea for project? Have RoadMap scope, research, and build your MVP to show off!
               </div>
             </div>
           </div>

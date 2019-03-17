@@ -32,7 +32,7 @@ const People = () => (
             <Image filename="conner_pic.jpg"></Image>
           </figure>
           <p class="paragraph-large"><b>Conner Hunihan</b></p>
-          <p class="paragraph">User Experience Designer with a passion for connecting dots, I thrive working between creative execution and strategic roadmapping. I believe in technology that empowers collaboration, and am interested in positions that blend user research, UI/UX, and service design.</p>
+          <p class="paragraph">User Experience Designer with a passion for connecting dots, Conner thrives working between creative execution and strategic roadmapping. He believes in technology that empowers collaboration, and is interested in blending user research, UI/UX, and service design.</p>
         </div>
       </div>
     </div>

@@ -6,11 +6,12 @@ import Image from "../components/image"
 import "./header.css"
 
 const Header = () => (
-<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
+<nav class="navbar is-primary" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
     <a class="navbar-item" href="/">
       <Image filename="logo.png"></Image>
     </a>
+
     <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>

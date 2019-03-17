@@ -15,11 +15,15 @@
     "gatsby-plugin-sharp": "^2.0.27",
     "gatsby-source-filesystem": "^2.0.24",
     "gatsby-transformer-sharp": "^2.1.16",
+    "mdbreact": "^4.11.0",
     "node-sass": "^4.11.0",
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
+    "react-bulma-components": "2.3.0",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
+    "react-sticky-footer": "^0.1.0-rc3",
+    "reactstrap": "^7.1.0",
     "sass-loader": "^7.1.0"
   },
   "devDependencies": {
