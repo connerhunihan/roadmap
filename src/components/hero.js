@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 
 const Hero = () => (
-<section class="hero is-primary is-medium">
+<section class="hero is-primary is-bold is-medium">
   <div class="hero-body">
     <div class="container has-text-centered">
       <h1 class="header-1">

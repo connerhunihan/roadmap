@@ -11,9 +11,10 @@ import { StaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import Hero from "./hero"
-import Body from "./body"
+import Process from "./process"
+import UseCases from "./usecases"
+import People from "./people"
 import Footer from "./footer"
-// import "./layout.css"
 
 const Layout = () => (
   <StaticQuery
@@ -29,14 +30,10 @@ const Layout = () => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div>
-          <main>
-            <Hero></Hero>
-            <modularizeExplanation></modularizeExplanation>
-            <cards background="has-background-light"></cards>
-            <Body></Body>
-          </main>
-        </div>
+        <Hero></Hero>
+        <Process></Process>
+        <UseCases></UseCases>
+        <People></People>
         <Footer>
         </Footer>
       </>

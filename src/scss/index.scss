@@ -12,8 +12,7 @@ $family-sans-serif: "Lato", sans-serif;
 $primary: $blue;
 
 // Update some of Bulma's component variables
-$navbar-background-color: $blue;
-
+$column-gap: 5rem;
 
 // typography classes
 .header-1 {
@@ -67,17 +66,42 @@ $navbar-background-color: $blue;
   padding-bottom: 1.75em;
 };
 
-.paragraph-small {
+.paragraph-large {
   font-family: Lato;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 300;
   font-style: normal;
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #515151;
-  padding-bottom: 1.75em;
+  padding-bottom: .25em;
 };
+
+.form-label-headers {
+  font-family: Lato;
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #FFFFFF;
+  text-transform: uppercase;
+};
+
+.section-header {
+  font-family: Lato;
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: .8rem;
+  text-align: center;
+  color: #80BBE2;
+  text-transform: uppercase;
+};
+
+
+
 .paragraph-light-italic {
   font-style: italic;
   font-family: Montserrat;
@@ -102,18 +126,6 @@ $navbar-background-color: $blue;
   color: #fe4a49;
 };
 
-.form-label-headers {
-  font-family: Montserrat;
-  font-size: 14px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: normal;
-  letter-spacing: 1.5px;
-  color: #4a4a4a;
-  text-transform: uppercase;
-};
-
 .form-label-subheader {
   font-family: Montserrat;
   font-size: 14px;
@@ -125,20 +137,6 @@ $navbar-background-color: $blue;
   color: #4a4a4a;
   padding-bottom: 1em;
 };
-
-.logo {
-  font-family: 'Source Sans Pro', sans-serif;
-  font-size: 33px;
-  font-weight: 900;
-  line-height: 40px;
-  letter-spacing: -2px;
-  text-align: center;
-  color: #fed766;
-  text-transform: uppercase;
-};
-.logo:hover {
-  color: $blue;
-}
 
 .nav-active {
   font-family: 'Source Sans Pro', sans-serif;
@@ -242,11 +240,21 @@ $navbar-background-color: $blue;
 }
 
 //  spacing classes 
-.top-padding {
-	padding-top: 7rem;
+.sm-top-padding {
+	padding-top: 3rem;
 }
-.bottom-padding {
-	padding-bottom: 7rem;
+.lg-top-padding {
+  padding-top: 7rem;
+}
+.sm-bottom-padding {
+	padding-bottom: 3rem;
+}
+.lg-bottom-padding {
+  padding-bottom: 7rem;
+}
+.center-align {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 // Import only what you need from Bulma
@@ -258,6 +266,7 @@ $navbar-background-color: $blue;
 @import "~bulma/sass/elements/form.sass";
 @import "~bulma/sass/elements/title.sass";
 @import "~bulma/sass/grid/columns.sass";
+@import "~bulma/sass/components/card.sass";
 @import "~bulma/sass/components/navbar.sass";
 @import "~bulma/sass/layout/hero.sass";
 @import "~bulma/sass/layout/section.sass";

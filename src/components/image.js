@@ -23,7 +23,7 @@ const Image = (props) => (
               relativePath
               name
               childImageSharp {
-                sizes(maxWidth: 600) {
+                sizes(maxWidth: 300) {
                   ...GatsbyImageSharpSizes
                 }
               }
@@ -33,7 +33,7 @@ const Image = (props) => (
       }
     `}
 
-    render={(data) => {
+    render={data => {
       const image = data.images.edges.find(n => {
         return n.node.relativePath.includes(props.filename);
       });

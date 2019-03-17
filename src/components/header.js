@@ -6,9 +6,11 @@ import Image from "../components/image"
 import "./header.css"
 
 const Header = () => (
-<nav class="navbar is-transparen" role="navigation" aria-label="main navigation">
+<nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
   <div class="navbar-brand">
-    <Image></Image>
+    <a class="navbar-item" href="/">
+      <Image filename="logo.png"></Image>
+    </a>
     <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu">
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
@@ -22,18 +24,18 @@ const Header = () => (
 
     <div class="navbar-end">
       <div class="navbar-item">
-        <div class="p">
-          <a class="nav-text">
-            SIGN UP
-          </a>
-          <a class="nav-text">
-            LOG IN
-          </a>
-        </div>
+        <a class="form-label-headers">
+          SIGN UP
+        </a>
       </div>
+      <div class="navbar-item">
+        <a class="form-label-headers">
+          LOG IN
+        </a>
+      </div>        
     </div>
   </div>
-    </nav>
+</nav>
 )
 
 document.addEventListener('DOMContentLoaded', () => {
