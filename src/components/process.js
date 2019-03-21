@@ -30,11 +30,6 @@ const Process = () => (
               <p class="paragraph">RoadMap <b>platform handles management, scheduling, and documentation.</b></p>
             </div>
           </div>
-      <div class="columns">
-        <div class="column is-offset-3 is-6">
-          <a class="button is-large is-primary is-large is-fullwidth is-rounded form-label-headers" href="#getinvolved">Get started</a>
-        </div>
-      </div>
     </div>
   </section>
 )

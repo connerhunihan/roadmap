@@ -25,7 +25,7 @@ const People = () => (
             <Image filename="mahmoud_pic.jpg"></Image>
           </figure>
           <p class="paragraph-large"><b>Mahmoud Hamsho</b></p>
-          <p class="paragraph">hmoud's research interest includes machine learning ethics and cybersecurity. While in the Bay Area, Mahmoud has worked as a Data Scientist at a IoT security startup (Intertrust Technologies). As a researcher for the California Statewide Database, he is conducting user research on redistricting information accessibility and helping design models to lower the barrier to participating in California redistricting.</p>
+          <p class="paragraph">Mahmoud's research interest includes machine learning ethics and cybersecurity. While in the Bay Area, Mahmoud has worked as a Data Scientist at a IoT security startup (Intertrust Technologies). As a researcher for the California Statewide Database, he is conducting user research on redistricting information accessibility and helping design models to lower the barrier to participating in California redistricting.</p>
         </div>
         <div class="column is-one-third">
           <figure class="image is-3by1 sm-bottom-padding">
